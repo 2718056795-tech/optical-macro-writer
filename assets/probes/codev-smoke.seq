@@ -1,0 +1,14 @@
+RFD 3
+LCL NUM ^n ^i ^total
+
+^n == #1
+IF (^n < 1) OR (^n > 10) OR (^n <> ROUNDF(^n))
+    WRI "CODEV_SMOKE_INVALID_INPUT"
+    RTN
+END IF
+
+^total == 0
+FOR ^i 1 ^n
+    ^total == ^total + ^i * ^i
+END FOR
+WRI "CODEV_SMOKE_OK" ^total

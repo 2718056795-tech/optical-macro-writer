@@ -1,0 +1,4 @@
+/references/official/
+__pycache__/
+*.pyc
+*.zip

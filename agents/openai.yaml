@@ -1,0 +1,4 @@
+interface:
+  display_name: "光学宏语言编写器"
+  short_description: "编写并严格验证 CODE V、ZPL 与 ZOS-API 光学宏"
+  default_prompt: "使用 $optical-macro-writer 依据随包官方资料编写并验证可迁移的 CODE V 或 Zemax 光学宏。"
